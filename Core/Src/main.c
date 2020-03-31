@@ -52,8 +52,6 @@ static void MX_GPIO_Init(void);
 static void MX_DMA_Init(void);
 static void MX_ADC1_Init(void);
 /* USER CODE BEGIN PFP */
-#define ADC_CONVERT_DATA_BUFFR_SIZE 4
-uint8_t adcConvertData[ADC_CONVERT_DATA_BUFFR_SIZE] = { 0 };
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
